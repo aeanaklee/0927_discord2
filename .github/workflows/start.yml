@@ -27,7 +27,7 @@ jobs:
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
           DISCORD_USERNAME : Github Actions
-          DISCORD_AVATAR : https://www.pngfind.com/pngs/m/137-1375182_bouncer-github-octodex-github-octocat-hd-png-download.png
+          DISCORD_AVATAR : 
         uses: Ilshidur/action-discord@master
         with:
           args: '안녕 GitHub Actions: {{ GITHUB_EVENT_NAME }}'
