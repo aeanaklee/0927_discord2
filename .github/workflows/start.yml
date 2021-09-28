@@ -23,7 +23,6 @@ jobs:
       # Runs a single command using the runners shell
       - name: 멋사 안녕
         run: echo "멋사 안녕"
-
       - name: Discord notification
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
