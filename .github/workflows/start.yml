@@ -27,7 +27,7 @@ jobs:
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
           DISCORD_USERNAME : Github Actions
-          DISCORD_AVATAR : 
+          DISCORD_AVATAR : https://image.pngaaa.com/941/94941-middle.png
         uses: Ilshidur/action-discord@master
         with:
           args: '안녕 GitHub Actions: {{ GITHUB_EVENT_NAME }}'
